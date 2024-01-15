@@ -457,7 +457,7 @@ function getHexRGBValues(/* arr */) {
  *
  * @param {array} arr - The input array
  * @param {number} n - Number of maximum values.
- * @return {array} - n largest values.
+ * @return {array} - n the largest values.
  *
  * @example
  *   getMaxItems([], 5) => []
