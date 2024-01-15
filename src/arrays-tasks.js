@@ -267,10 +267,8 @@ function toStringList(arr) {
  */
 function distinct(arr) {
   const set = new Set(arr);
-  console.log(set);
   return Array.from(set);
 }
-// distinct([1, 2, 3, 3, 2, 1]);
 /**
  * Creates an n-dimensional array and fills it with zeros.
  *
@@ -457,7 +455,7 @@ function getHexRGBValues(/* arr */) {
  *
  * @param {array} arr - The input array
  * @param {number} n - Number of maximum values.
- * @return {array} - n the largest values.
+ * @return {array} - n largest values.
  *
  * @example
  *   getMaxItems([], 5) => []
